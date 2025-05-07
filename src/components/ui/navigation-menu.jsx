@@ -23,7 +23,7 @@ const navigationMenuTriggerStyle = cva("");
 const NavigationMenuTrigger = React.forwardRef(({ className, children, ...props }, ref) => (
   <NavigationMenuPrimitive.Trigger
     ref={ref}
-    className={cn(navigationMenuTriggerStyle(), "group flex items-center", className)}
+    className={cn(navigationMenuTriggerStyle(), "group flex items-center font-medium", className)}
     {...props}>
     {children}{" "}
     <ChevronDown

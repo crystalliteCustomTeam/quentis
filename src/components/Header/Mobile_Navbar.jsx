@@ -24,19 +24,19 @@ const Link = ({ text, href }) => {
       href={href}
       className={`${
         isActive ? "text-primary" : ""
-      } hover:text-primary transition-all duration-300 text-[18px] leading-loose`}>
+      } hover:text-primary transition-all duration-300 text-[18px] font-medium leading-loose`}>
       {text}
     </NextLink>
   );
 };
 
 const services = [
-  { text: "UI/UX Design", href: "/ui-ux-design" },
-  { text: "Digital Branding", href: "/digital-branding" },
-  { text: "Ecommerce Development", href: "/ecommerce-development" },
-  { text: "Video Animation", href: "/video-animation" },
-  { text: "Digital Marketing", href: "/digital-marketing" },
-  { text: "Web Development", href: "/web-development" },
+  { text: "AI Chatbots", href: "/" },
+  { text: "Mobile App Development", href: "/" },
+  { text: "Video Animation", href: "/" },
+  { text: "Cloud Computing", href: "/" },
+  { text: "Digital Branding", href: "/" },
+  { text: "Cybersecurity Solutions", href: "/" },
 ];
 
 export default function MobileNavbar() {
@@ -64,7 +64,7 @@ export default function MobileNavbar() {
               text === "Services" ? (
                 <Sheet key={i}>
                   <SheetTrigger>
-                    <span className="flex items-center gap-2.5">
+                    <span className="flex items-center gap-2.5 text-[18px] font-medium">
                       <span className="inline-block w-3 h-3 rounded-full border-2 border-primary"></span>
                       Services
                     </span>

@@ -19,7 +19,7 @@ const services = [
 
 const Link = ({ text, href }) => {
   return (
-    <NavigationMenuLink className="text-[16px]" href={href}>
+    <NavigationMenuLink className="text-[16px] font-medium" href={href}>
       {text}
     </NavigationMenuLink>
   );
