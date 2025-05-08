@@ -1,0 +1,10 @@
+.embla__dot--selected {
+  position: relative;
+}
+
+.embla__dot--selected::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #0bcccf;
+}

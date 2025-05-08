@@ -13,8 +13,7 @@ import Header from "@/components/Header/Header";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${font_sans.variable} antialiased font-sans font-normal text-[16px] leading-normal`}>
+      <body className={`${font_sans.variable} antialiased font-sans font-normal text-[16px] leading-normal text-black/80`}>
         <Header />
         <main>{children}</main>
       </body>

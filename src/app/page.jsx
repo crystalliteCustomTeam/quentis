@@ -2,6 +2,7 @@
 import CTA from "@/components/CTA";
 import Home_Hero_Video from "@/components/Home_Hero_Video";
 import Our_Services from "@/components/Our_Services";
+import Our_Works from "@/components/Our_Works";
 // Next
 import Image from "next/image";
 // Media
@@ -12,7 +13,7 @@ export default function Page() {
   return (
     <>
       <section>
-        <div className="pt-[150px] pb-[100px] relative z-[1] text-black/80">
+        <div className="pt-[150px] pb-[100px] relative z-[1]">
           <Image src={pattern} alt="patern" fill priority className="absolute z-[-1] object-cover" />
           <div className="container">
             <div className="grid grid-cols-1 gap-y-10 lg:gap-y-0 lg:grid-cols-2 gap-x-5 items-center">
@@ -73,6 +74,7 @@ export default function Page() {
         </div>
       </section>
       <Our_Services />
+      <Our_Works />
     </>
   );
 }
