@@ -75,6 +75,36 @@ export default function Page() {
       </section>
       <Our_Services />
       <Our_Works />
+      <section>
+        <div className="py-[100px] lg:py-[150px] relative z-[1] bg-black/80 text-white/90">
+          <Image src={pattern} alt="patern" fill priority className="absolute z-[-1] object-cover" />
+          <div className="container">
+            <h2 className="xs:text-[35px] text-[50px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[55px] font-bold xs:leading-snug leading-tight mb-3 text-center">
+              Excellence Is Our <span className="text-primary">Bare Minimum.</span>
+            </h2>
+            <p className="text-[16px] sm:text-[20px] lg:text-[30px] text-center max-w-[620px] lg:max-w-[920px] mx-auto">
+              We are a digital transformation powerhouse trusted by leading global names. With 15+ years of experience and 350+
+              tech innovators, we build a digital infrastructure that empowers our clients to lead their industries.
+            </p>
+            <div className="flex flex-row items-center justify-evenly gap-x-5 gap-y-10 mt-10">
+              {[
+                ["100+", "Completed Projects"],
+                ["10+", "Talented Team"],
+                ["50+", "Satisfied Clients"],
+              ].map(([num, txt], i) => (
+                <div
+                  key={i}
+                  className="text-center border-2 border-primary px-2 py-5 md:p-0 w-[300px] rounded-lg md:border-0 md:w-auto">
+                  <span className="inline-block text-[30px] md:text-[60px] lg:text-[80px] font-bold text-primary leading-tight">
+                    {num}
+                  </span>
+                  <p className="text-[14px] md:text-[18px] lg:text-[20px] mt-3 leading-relaxed">{txt}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
