@@ -3,6 +3,7 @@ import CTA from "@/components/CTA";
 import Home_Hero_Video from "@/components/Home_Hero_Video";
 import Our_Services from "@/components/Our_Services";
 import Our_Works from "@/components/Our_Works";
+import Our_Process from "@/components/Our_Process";
 // Next
 import Image from "next/image";
 // Media
@@ -105,6 +106,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <Our_Process />
     </>
   );
 }

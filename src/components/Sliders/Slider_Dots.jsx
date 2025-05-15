@@ -37,11 +37,11 @@ export const useDotButton = (emblaApi) => {
 };
 
 export const DotButton = (props) => {
-  const { children, ...restProps } = props;
+  const { children, index, ...restProps } = props;
 
   return (
     <button type="button" {...restProps}>
-      {children}
+      {index}
     </button>
   );
 };

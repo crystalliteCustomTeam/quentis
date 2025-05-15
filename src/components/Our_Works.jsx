@@ -64,10 +64,10 @@ export default function Our_Works() {
             <CTA text="Explore All" />
           </div>
           <Autoplay_Slider
-            emblaWrapper="flex [margin-left:calc(2rem_*_-1)]"
-            wrapperClasses="overflow-visible"
-            align="start"
-            dots={false}>
+            embla_wrapper="flex [margin-left:calc(2rem_*_-1)]"
+            wrapper_classes="overflow-visible"
+            arrows_css="mt-10 flex gap-5"
+            align="start">
             {data.map(({ img }, i) => (
               <div key={i} className="grow-0 shrink-0 basis-[300px] sm:basis-[400px] pl-8 group">
                 <div className="h-[300px] sm:h-[400px] w-[300px] sm:w-[400px] border-8 border-black/80">
