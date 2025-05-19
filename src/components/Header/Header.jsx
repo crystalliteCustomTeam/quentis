@@ -26,10 +26,7 @@ export default function Header() {
     };
   }, []);
   return (
-    <motion.header
-      initial={{ opacity: 0, y: -100 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}>
+    <motion.header initial={{ opacity: 0, y: -100 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
       <div className="absolute top-5 left-0 right-0 z-50">
         <div className="container">
           <div className="flex items-center">

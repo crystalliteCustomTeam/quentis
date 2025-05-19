@@ -9,6 +9,7 @@ import Image from "next/image";
 // Media
 import pattern from "media/pattern-1.png";
 import q_1 from "media/q_1.png";
+import Our_Clients from "@/components/Our_Clients";
 
 export default function Page() {
   return (
@@ -107,6 +108,7 @@ export default function Page() {
         </div>
       </section>
       <Our_Process />
+      <Our_Clients />
     </>
   );
 }
