@@ -5,6 +5,7 @@ import Our_Services from "@/components/Our_Services";
 import Our_Works from "@/components/Our_Works";
 import Our_Process from "@/components/Our_Process";
 import Awards from "@/components/Awards";
+import Testimonials from "@/components/Testimonials";
 // Next
 import Image from "next/image";
 // Media
@@ -111,6 +112,7 @@ export default function Page() {
       <Our_Process />
       <Our_Clients />
       <Awards />
+      <Testimonials />
     </>
   );
 }
