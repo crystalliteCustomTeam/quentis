@@ -9,24 +9,24 @@ import { CardStack } from "@/components/ui/card-stack";
 
 const data = [
   {
-    para: "The team stood out because of their swift response time and patience. Quentis provided one contact person, which helped streamline project management and coordination. Not only did Quentis follow the budget and timeline, the team even offered additional services at no extra charge.",
-    name: "Elijah James",
-    jd: "Founder",
+    para: "Working with Quentis was a game-changer for our brand. They didn’t just build us a website—they helped us craft a digital identity that resonates with our audience. Their team was proactive, creative, and delivered exactly what we needed, on time and on budget.",
+    name: "Sara Lin",
+    jd: "-",
   },
   {
-    para: "Willing to accommodate nonprofit budgets, Cubix brought their robust experience to the project. They checked in consistently, and were communicative, easy to reach, and responsive. The Android app shows over 500 downloads to date.",
-    name: "Jack Agresti",
-    jd: "CEO",
+    para: "We hired Quentis to redesign our mobile app, and the result exceeded all expectations. From UX to visuals to performance, everything was on point. Their design team clearly understands how to blend aesthetics with usability.",
+    name: "Jason Reid",
+    jd: "-",
   },
   {
-    para: "The team stood out because of their swift response time and patience. Quentis provided one contact person, which helped streamline project management and coordination. Not only did Quentis follow the budget and timeline, the team even offered additional services at no extra charge.",
-    name: "Elijah James",
-    jd: "Founder",
+    para: "Quentis stood out for their communication and clarity. We always knew where we were in the project timeline, and they were quick to adjust based on our feedback. The final digital campaign drove record-breaking engagement.",
+    name: "Monica Alvarez",
+    jd: "-",
   },
   {
-    para: "Willing to accommodate nonprofit budgets, Cubix brought their robust experience to the project. They checked in consistently, and were communicative, easy to reach, and responsive. The Android app shows over 500 downloads to date.",
-    name: "Jack Agresti",
-    jd: "CEO",
+    para: "Their approach to digital strategy is smart and insightful. The AI chatbot they built for us reduced our customer service workload by 40% within the first month. Quentis delivers serious results.",
+    name: "Elliot Price",
+    jd: "-",
   },
 ];
 
